@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  font-size: 14px;
+  background: linear-gradient(313deg, #7759B8 30%, #4984D0 70%);
+  height: 100vh;
+  overflow: auto;
+}
+.App input{
+  font-size: 14px;
+}
+.App button{
+  font-size: 14px;
+}
+.mainform{
+  width: 450px;
+}
+
+.mainform  .form-label{font-weight: bold;}
+.mainform .error{color: #c71b1b;}
+.nav .nav-link{color: white;}
+.nav .nav-link.active{background: white; color: rgb(49, 101, 213);}
